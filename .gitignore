@@ -1,3 +1,5 @@
 venv
 settings.json
 .vscode
+.mypy_cache
+.pytest_cache
