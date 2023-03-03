@@ -1,9 +1,9 @@
-# from django.shortcuts import render
+from django.shortcuts import render
 from django.http import HttpResponse
 
 
 def home(request):
-    return HttpResponse('HOME3')
+    return render('recipes/template/home.html')
 
 
 def contato(request):
